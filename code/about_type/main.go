@@ -9,17 +9,15 @@ import "fmt"
 // Myint 基于int类型的自定义
 type Myint int
 
-
 //2.类型别名
 
 // Newint int类型别名
 type Newint = int
 
+func main() {
+	var i Myint
+	fmt.Printf("type:%T value%v\n", i, i)
 
-func main(){
-var i Myint
-fmt.Printf("type:%T value%v\n", i,i)
-
-var x Newint
-fmt.Printf("type:%T value%v\n",x,x)
+	var x Newint
+	fmt.Printf("type:%T value%v\n", x, x)
 }
