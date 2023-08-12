@@ -7,13 +7,13 @@ import "fmt"
 // 基于内置的基本类型造一个我们自己的类型
 type myInt int
 
-func (m myInt) sauHi(){
+func (m myInt) sauHi() {
 	fmt.Println("hi")
 
 }
 
-func main()  {
+func main() {
 	var m1 myInt
-m1 =100
-m1.sauHi()
+	m1 = 100
+	m1.sauHi()
 }
